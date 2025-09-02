@@ -1,0 +1,132 @@
+/* @import "tailwindcss";
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+/* @import "tailwindcss";
+ */
+
+ /* Full page background */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Container styles */
+.counter-container {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #FCC8B2, #F8AFA6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+/* Card styles */
+.counter-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 25px;
+  padding: 2rem 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Heading */
+.counter-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1rem;
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 10px;
+  background: #efca08;
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn:hover {
+  background: #ffd60a;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: translateY(0px);
+}
+
+/* Reset button */
+.btn-reset {
+  width: 100%;
+  background: #d97706;
+  color: white;
+}
+
+.btn-reset:hover {
+  background: #f59e0b;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
